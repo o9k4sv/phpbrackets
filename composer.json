@@ -1,0 +1,23 @@
+{
+    "name": "o9k4sv/phpbrackets",
+    "description": "A simple PHP package to check the validity of parentheses in an expression",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "lib/Functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Artur Chemyshenko",
+            "email": "o9k4sv@gmail.com"
+        }
+    ],
+    "require": { 
+        "php": "^7.2 || ^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^10.0"
+    }
+}
